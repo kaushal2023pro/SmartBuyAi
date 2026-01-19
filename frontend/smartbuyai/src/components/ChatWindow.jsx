@@ -14,7 +14,7 @@ export default function ChatWindow() {
     setLoading(true);
 
     try {
-      const response = await fetch("https://smartbuybacekend.onrender.com", {
+      const response = await fetch("https://smartbuybacekend.onrender.com/recommend", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query: text }),
