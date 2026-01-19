@@ -6,7 +6,7 @@ const cors = require("cors");
 
 app.use(express.json());
 app.use(cors({
-    origin: ["http://localhost:3000", "http://192.168.31.247:3000", "http://localhost:5173", "http://localhost:5174"],
+    origin: ["http://localhost:3000", "http://192.168.31.247:3000", "http://localhost:5173", "http://localhost:5174","https://smartbuyai-1.onrender.com"],
     credentials: true
 }));
 
